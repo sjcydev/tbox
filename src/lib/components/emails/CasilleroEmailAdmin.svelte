@@ -12,7 +12,7 @@
   } from "svelte-email";
 
   let logo =
-    "https://res.cloudinary.com/dx312n0ce/image/upload/f_auto,q_auto/afmap1bg1ucjzl5fbd4s";
+    "https://res.cloudinary.com/dx312n0ce/image/upload/f_auto,q_auto/xgbw7scj5mlyekuhayqe";
 
   const preview = "Nuevo Casillero Registrado";
   export let nombre: String;
@@ -22,7 +22,7 @@
   export let cedula: String;
   export let telefono: String;
 
-  let codigo_de_compania = "XC";
+  let codigo_de_compania = "TB";
   let direccion = {
     direccion1: "7854 NW 46TH ST UNIT 2",
     estado: "FLORIDA",
@@ -97,7 +97,7 @@
           width="30"
           height="30"
           style={logoIcon}
-          alt="XCargoServices Logo"
+          alt="TBoxExpress Logo"
         />
       </Container>
       <Heading style={heading}>Nuevo Casillero Registrado</Heading>

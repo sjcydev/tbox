@@ -12,15 +12,15 @@
   } from "svelte-email";
 
   let logo =
-    "https://res.cloudinary.com/dx312n0ce/image/upload/f_auto,q_auto/afmap1bg1ucjzl5fbd4s";
+    "https://res.cloudinary.com/dx312n0ce/image/upload/f_auto,q_auto/xgbw7scj5mlyekuhayqe";
 
   const preview = "Correo de Bienvenida e Información del Casillero";
   export let nombre: String;
   export let apellido: String;
   export let casillero: String;
 
-  let codigo_de_compania = "XC";
-  let nombre_de_compania = "XCargo Services";
+  let codigo_de_compania = "TB";
+  let nombre_de_compania = "TBox Express";
   let direccion = {
     direccion1: "7854 NW 46TH ST UNIT 2",
     estado: "FLORIDA",
@@ -73,7 +73,7 @@
   };
 
   const logoIcon = {
-    width: "17rem",
+    width: "14rem",
     height: "auto",
   };
 
@@ -105,7 +105,7 @@
           width="30"
           height="30"
           style={logoIcon}
-          alt="XCargoServices
+          alt="TBoxExpress
         Logo"
         />
       </Container>

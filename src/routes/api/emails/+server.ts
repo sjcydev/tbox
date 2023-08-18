@@ -40,15 +40,15 @@ export const POST = async ({ request }: RequestEvent) => {
     await sibAPI
       .sendTransacEmail({
         sender: {
-          email: "info@xcargoservices.com",
-          name: "XCargo Services",
+          email: "info@tboxexpress.com",
+          name: "TBox Express",
         },
         to: [
           {
             email: correo,
           },
         ],
-        subject: "Bienvenido a XCargo Services",
+        subject: "Bienvenido a TBox Express",
         htmlContent: html,
         textContent: text,
       })
@@ -91,10 +91,10 @@ export const POST = async ({ request }: RequestEvent) => {
 
     await sibAPI.sendTransacEmail({
       sender: {
-        email: "info@xcargoservices.com",
-        name: "XCargo Services",
+        email: "info@tboxexpress.com",
+        name: "TBox Express",
       },
-      to: [{ email: "xcargoservices68@gmail.com" }],
+      to: [{ email: "sjcydev12@gmail.com" }],
       subject: "Nuevo Casillero Registrado",
       htmlContent: admin,
       textContent: textAdmin,

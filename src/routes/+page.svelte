@@ -15,7 +15,7 @@
   } from "@fortawesome/free-solid-svg-icons";
   import { goto } from "$app/navigation";
 
-  let precio = "$2.50";
+  let precio = "$2.75";
 
   let servicios = [
     {
@@ -38,7 +38,7 @@
     },
   ];
 
-  let direccionMapa = "https://maps.app.goo.gl/6umy2Deq1bqTzmZT6?g_st=ic";
+  let direccionMapa = "https://goo.gl/maps/AKAeqkeWwxEabLQh6";
 
   let ready = false;
   onMount(() => (ready = true));
@@ -232,11 +232,11 @@
         </h1>
         <div>
           <div class="mb-2">
-            <p class="text-lg font-medium">Lunes - Sabado</p>
-            <p>8:00 AM - 6:00 PM</p>
+            <p class="text-lg font-medium">Lunes - Viernes</p>
+            <p>11:00 AM - 8:00 PM</p>
           </div>
-          <p class="text-lg font-medium">Domingo</p>
-          <p>8:00 AM - 12:00 PM</p>
+          <p class="text-lg font-medium">Sabado</p>
+          <p>11:00 AM - 7:30 PM</p>
         </div>
       </div>
       <div class="p-5 mb-10">
@@ -244,18 +244,18 @@
         <div class="grid lg:grid-cols-2 lg:gap-10 mb-3">
           <div>
             <a
-              href="https://wa.me/+50766302373"
+              href="https://wa.me/"
               class="text-lg mb-2 flex place-items-center gap-2"
               target="_blank"
             >
-              <Fa icon={faPhone} /> +507 6362-8879
+              <Fa icon={faPhone} /> +507
             </a>
           </div>
         </div>
-        <p class="mb-1 text-base">La Chorrera</p>
+        <p class="mb-1 text-base">Brisas del Golf</p>
         <p class="mb-6 text-sm">
-          Barrio Balboa, Ave Ricardo J. Alfaro (Calle Rockefeller), Pb
-          Autoservicio Mario
+          Dentro de Bisuteria y Accesorios Thrive, plaza Brisas Mall, local 25,
+          fondo izquierdo, a lado de Optica Sosa
         </p>
         <button
           class="btn btn-neutral"

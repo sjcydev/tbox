@@ -1,5 +1,4 @@
 <script>
-  import Logo from "$lib/assets/tbox.svg";
   import { faInstagram } from "@fortawesome/free-brands-svg-icons";
   import Fa from "svelte-fa";
 </script>
@@ -11,7 +10,7 @@
     <p class="text-xs">Copyright © TBox Express 2023 - Derechos Reservados</p>
   </div>
   <div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-    <a href="https://www.instagram.com/xcargoservices"
+    <a href="https://www.instagram.com/tbox_express"
       ><Fa icon={faInstagram} class="text-3xl" /></a
     >
   </div>
