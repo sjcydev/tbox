@@ -94,7 +94,7 @@ export const POST = async ({ request }: RequestEvent) => {
         email: "info@tboxexpress.com",
         name: "TBox Express",
       },
-      to: [{ email: "sjcydev12@gmail.com" }],
+      to: [{ email: "tbexpress2023@gmail.com" }],
       subject: "Nuevo Casillero Registrado",
       htmlContent: admin,
       textContent: textAdmin,
