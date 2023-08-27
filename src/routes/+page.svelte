@@ -27,7 +27,7 @@
     {
       titulo: "Carga Marítima",
       contenido:
-        "Solución económica y confiable para el transporte de grandes volúmenes de mercancías por barco a nivel internacional",
+        "Solución económica y confiable para el transporte de grandes volúmenes de mercancías por barco a nivel internacional. Unicamente a partir de 50 libras",
       icono: faShip,
     },
     {
@@ -77,7 +77,7 @@
           on:click={() => goto("/registrar")}>Abre tu Casillero Gratis</button
         >
       </div>
-      <div class="">
+      <div>
         <AbrirCasillero />
       </div>
     </div>
@@ -150,7 +150,7 @@
   <div class="hero-content text-center text-secondary-content">
     <div class="max-w-md">
       <h1 class="mb-5 text-4xl lg:text-5xl font-bold">Una vez en Miami</h1>
-      <p class="mb-5">Le entregamos su paquete en 48 horas!</p>
+      <p class="mb-5">Le entregamos su paquete en 3 a 5 días!</p>
       <button class="btn btn-secondary" on:click={() => goto("/registrar")}
         >Comprar en Linea Ahora</button
       >
@@ -164,7 +164,7 @@
   <div class="lg:px-36 grid lg:grid-cols-2 w-full lg:w-3/4 place-items-center">
     <div>
       <div class="mb-10 grid place-items-center">
-        <h2 class="text-2xl lg:text-4xl my-10">Tarifa Unica</h2>
+        <h2 class="text-2xl lg:text-4xl my-10">Tarifa Única</h2>
         <Fa class="text-7xl lg:text-9xl" icon={faBoxesPacking} />
         <div class="my-10 text-center">
           <p class="text-2xl lg:text-3xl mb-3">
