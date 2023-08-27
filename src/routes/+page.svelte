@@ -244,11 +244,11 @@
         <div class="grid lg:grid-cols-2 lg:gap-10 mb-3">
           <div>
             <a
-              href="https://wa.me/"
+              href="https://wa.me/+50765532801"
               class="text-lg mb-2 flex place-items-center gap-2"
               target="_blank"
             >
-              <Fa icon={faPhone} /> +507
+              <Fa icon={faPhone} /> +507 6553-2801
             </a>
           </div>
         </div>
